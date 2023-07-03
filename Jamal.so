@@ -2,6 +2,7 @@ import requests,os
 try:
 	os.system('clear')
 	print(' YouTube Channel Subscribe ')
+        os.system('https://youtube.com/@AAMIRJAMAL-XD')
 except:
 	os.system('https://youtube.com/@AAMIRJAMAL-XD')
 try:
