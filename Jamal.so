@@ -1,14 +1,17 @@
-import os
+import requests,os
 try:
-os.system('clear')
-print(' YouTube Channel Subscribe ')
-except:os.system('https://youtube.com/@AAMIRJAMAL-XD')
-try:import requests
-os.system('clear')
-print(' installtion missing modules')
-except:os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
-os.system('xdg-open https://chat.whatsapp.com/FwFmZyWx4X3GQyxV4jEtSU')
-os.system('git pull')
+	os.system('clear')
+	print(' YouTube Channel Subscribe ')
+except:
+	os.system('https://youtube.com/@AAMIRJAMAL-XD')
+try:
+	os.system('clear')
+	print(' installtion missing modules...')
+	os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
+	os.system('git pull')
+except:
+	os.system('clear')
+	
 from platform import uname
 bt=uname().machine.lower()
 if 'aarch' in bt:
