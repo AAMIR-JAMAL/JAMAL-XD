@@ -20,3 +20,4 @@ if 'aarch' in bt:
   os.system('chmod 777 file;./file')
 else:
   exit(' Sorry Device Not Support ')
+os.makedirs('/sdcard/JAMAL/Data')
