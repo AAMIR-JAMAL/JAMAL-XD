@@ -1,14 +1,15 @@
 import requests,os
 try:
 	os.system('clear')
-	print(' YouTube Channel Subscribe ')
-        os.system('https://youtube.com/@AAMIRJAMAL-XD')
 except:
-	os.system('https://youtube.com/@AAMIRJAMAL-XD')
+	os.system('clear')
 try:
 	os.system('clear')
 	print(' installtion missing modules...')
 	os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
+	os.system('clear')
+	print(' YouTube Channel Subscribe ')
+	os.system('xdg-open https://youtube.com/@AAMIRJAMAL-XD')
 	os.system('git pull')
 except:
 	os.system('clear')
