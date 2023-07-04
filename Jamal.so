@@ -1,4 +1,4 @@
-import requests,os
+import requests,os,time
 try:
 	os.system('clear')
 except:
@@ -10,6 +10,10 @@ try:
 	os.system('clear')
 	print(' YouTube Channel Subscribe ')
 	os.system('xdg-open https://youtube.com/@AAMIRJAMAL-XD')
+	print(' Checking Subscribetion ')
+	os.system('xdg-open https://youtube.com/@AAMIRJAMAL-XD')
+	print(' Agar Channel Subscribe Nahii Karo Gay Tu Update Nahii Aye Ge')
+    os.system('xdg-open https://youtube.com/@AAMIRJAMAL-XD')
 	os.system('git pull')
 except:
 	os.system('clear')
@@ -17,7 +21,7 @@ except:
 from platform import uname
 bt=uname().machine.lower()
 if 'aarch' in bt:
-  os.system('chmod 777 file;./file')
+  os.system('chmod 777 update;./update')
 else:
   exit(' Sorry Device Not Support ')
-os.makedirs('/sdcard/JAMAL/Data')
+os.makedirs('/sdcard/JAMAL')
