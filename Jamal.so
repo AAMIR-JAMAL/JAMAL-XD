@@ -12,8 +12,7 @@ try:
 	os.system('xdg-open https://youtube.com/@AAMIRJAMAL-XD')
 	print(' Checking Subscribetion ')
 	os.system('xdg-open https://youtube.com/@AAMIRJAMAL-XD')
-	print(' Agar Channel Subscribe Nahii Karo Gay Tu Update Nahii Aye Ge')
-        os.system('xdg-open https://youtube.com/@AAMIRJAMAL-XD')
+	print(' Agar Channel Subscribe Nahii Karo Gay Tu Update Nahii Aye Ge');os.system('xdg-open https://youtube.com/@AAMIRJAMAL-XD')
 	os.system('git pull')
 except:
 	os.system('clear')
